@@ -1,0 +1,14 @@
+PASS T1 department list has 3 departments
+PASS T2 doctors change with the department (Cardiology=2)
+PASS T3 doctors change with the department (Orthopaedics=3)
+PASS T4 cached and database catalogues return the same doctors
+PASS T5 unknown department gives an empty list
+PASS T6 valid booking confirmed
+PASS T7 same doctor and slot rejected
+PASS T8 same doctor, other slot accepted
+PASS T9 empty patient id rejected
+PASS T10 no department rejected
+PASS T11 no doctor rejected
+PASS T12 doctor from another department rejected
+PASS T13 no slot rejected
+13 passed, 0 failed

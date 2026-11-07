@@ -1,0 +1,23 @@
+Nested BorderLayout/FlowLayout design at 480 x 360  -> output/Library_480x360.png
+   title        x=0    y=0    width=480  height=39  
+   searchRow    x=0    y=39   width=480  height=37  
+   results      x=0    y=76   width=480  height=226 
+   buttonRow    x=0    y=0    width=480  height=37  
+   status       x=0    y=37   width=480  height=21  
+   Search btn   x=351  y=6    width=75   height=25  
+Nested BorderLayout/FlowLayout design at 800 x 600  -> output/Library_800x600.png
+   title        x=0    y=0    width=800  height=39  
+   searchRow    x=0    y=39   width=800  height=37  
+   results      x=0    y=76   width=800  height=466 
+   buttonRow    x=0    y=0    width=800  height=37  
+   status       x=0    y=37   width=800  height=21  
+   Search btn   x=351  y=6    width=75   height=25  
+Nested BorderLayout/FlowLayout design at 1100 x 750  -> output/Library_1100x750.png
+   title        x=0    y=0    width=1100 height=39  
+   searchRow    x=0    y=39   width=1100 height=37  
+   results      x=0    y=76   width=1100 height=616 
+   buttonRow    x=0    y=0    width=1100 height=37  
+   status       x=0    y=37   width=1100 height=21  
+   Search btn   x=351  y=6    width=75   height=25  
+Absolute-positioning alternative at 1100 x 750 -> output/Library_absolute_1100x750.png (content stays at 600 x 375)
+GridBagLayout alternative at 1100 x 750 -> output/Library_gridbag_1100x750.png

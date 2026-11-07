@@ -1,0 +1,8 @@
+PASS T1 listener class overrides mouseClicked (name spelled correctly)
+PASS T2 three clicks stored three points
+PASS T3 label shows 'Clicks: 3'
+PASS T4 dots are centred on the click points before minimising
+PASS T5 dots are still there after minimise/restore (paint redraws stored points)
+PASS T6 area away from the clicks stays blank
+PASS T7 model of the original program after restore is empty (nothing stored to redraw)
+7 passed, 0 failed

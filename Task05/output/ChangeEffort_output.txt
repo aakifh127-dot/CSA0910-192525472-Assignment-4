@@ -1,0 +1,11 @@
+Style                                  Lines added  Lines removed  Total changed
+(a) frame implements ActionListener    5            1              6           
+(b) named inner class                  5            1              6           
+(c) anonymous inner class              8            3              11          
+(d) lambda expression                  9            1              10          
+(each count includes the 1-2 new import lines needed for the dialog box / ActionListener)
+Lines of code per version (v1 -> v2):
+  ConverterA: 37 -> 41
+  ConverterB: 39 -> 43
+  ConverterC: 37 -> 42
+  ConverterD: 31 -> 39

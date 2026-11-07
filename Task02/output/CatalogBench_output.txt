@@ -1,0 +1,6 @@
+d      m        Map lookup (ns/change) DB query (ns/change)     Map memory (KB)   
+10     500      120                    338049                   0.0               
+20     2000     110                    409606                   4.5               
+50     10000    87                     486241                   51.8              
+100    50000    22                     533725                   206.2             
+Map: O(1) per change, O(d + m) memory.  DB: O(m) scan + a round trip per change, O(m/d) memory for the current list only.

@@ -1,0 +1,6 @@
+Design                 JPanels        Components   Relayout time (us)    
+Nested Border/Flow     5              25           53.4                  
+GridBagLayout          1              18           43.0                  
+Absolute (null)        1              20           8.1                   
+All three are O(n) in the number of components for one relayout; they differ in constant factor, in
+container objects (space) and, for the absolute design, in not reacting to a resize at all.

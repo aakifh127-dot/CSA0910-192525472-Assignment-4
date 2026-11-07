@@ -1,0 +1,15 @@
+PASS T1 valid payment returns receipt #1 for 1500.50
+PASS T2 empty register number rejected
+PASS T3 empty amount rejected
+PASS T4 non-numeric amount rejected (no NumberFormatException escapes)
+PASS T5 negative amount rejected
+PASS T6 zero amount rejected
+PASS T7 NaN rejected
+PASS T8 amount above limit rejected
+PASS T9 SQL-injection text rejected before reaching storage
+PASS T10 nothing was stored by the rejected calls
+PASS T11 receipt for last payment
+PASS T12 receipt for unknown student reports no payment
+PASS T13 receipt returns the most recent payment
+PASS T14 storage failure becomes a readable message
+14 passed, 0 failed

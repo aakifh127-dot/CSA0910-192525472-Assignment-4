@@ -1,0 +1,27 @@
+id,student_id,name,email,event
+1,192500001,Anitha R,anitha.r1@example.edu,Hackathon
+2,192500002,Karthik S,karthik.s2@example.edu,Dance Fest
+3,192500003,Divya M,divya.m3@example.edu,Quiz Bowl
+4,192500004,Rahul K,rahul.k4@example.edu,Music Night
+5,192500005,Meena P,meena.p5@example.edu,Hackathon
+6,192500006,Suresh V,suresh.v6@example.edu,Dance Fest
+7,192500007,Priya N,priya.n7@example.edu,Quiz Bowl
+8,192500008,Arjun T,arjun.t8@example.edu,Music Night
+9,192500009,Lakshmi D,lakshmi.d9@example.edu,Hackathon
+10,192500010,Vikram J,vikram.j10@example.edu,Dance Fest
+11,192500011,Anitha R,anitha.r11@example.edu,Quiz Bowl
+12,192500012,Karthik S,karthik.s12@example.edu,Music Night
+13,192500013,Divya M,divya.m13@example.edu,Hackathon
+14,192500014,Rahul K,rahul.k14@example.edu,Dance Fest
+15,192500015,Meena P,meena.p15@example.edu,Quiz Bowl
+16,192500016,Suresh V,suresh.v16@example.edu,Music Night
+17,192500017,Priya N,priya.n17@example.edu,Hackathon
+18,192500018,Arjun T,arjun.t18@example.edu,Dance Fest
+19,192500019,Lakshmi D,lakshmi.d19@example.edu,Quiz Bowl
+20,192500020,Vikram J,vikram.j20@example.edu,Music Night
+21,192500021,Anitha R,anitha.r21@example.edu,Hackathon
+22,192500022,Karthik S,karthik.s22@example.edu,Dance Fest
+23,192500023,Divya M,divya.m23@example.edu,Quiz Bowl
+24,192500024,Rahul K,rahul.k24@example.edu,Music Night
+25,192500025,Meena P,meena.p25@example.edu,Hackathon
+26,192525100,Syed Aakif Hussain,aakif@example.edu,Hackathon

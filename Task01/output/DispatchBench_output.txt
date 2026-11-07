@@ -1,0 +1,7 @@
+k      if-else chain (ns)     listener per button (ns) HashMap lookup (ns)    k listeners (bytes)
+2      11.5                   17.0                   10.9                   0                 
+8      19.7                   7.9                    9.5                    0                 
+32     84.5                   8.5                    9.5                    2224              
+128    268.0                  12.0                   13.7                   5920              
+512    1060.7                 7.8                    10.8                   36784             
+Chain cost grows with k (O(k)); a listener per button stays flat (O(1)); space is O(k) for both.

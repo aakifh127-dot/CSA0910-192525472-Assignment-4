@@ -1,0 +1,11 @@
+Registrations in the store: 100000
+
+Approach                           Time (ms)          Extra heap in use (MB)
+A. load all 100,000 rows           99.5               9.3                   
+B. first page (OFFSET 0)           0.009              0.000                 
+B. middle page (OFFSET 50000)      1.102              0.000                 
+B. last page (OFFSET 99990)        1.531              0.000                 
+
+If approach A ran on the event-dispatch thread the window would be frozen for about 99 ms;
+approach B runs in a SwingWorker and each page is tiny, so the window never freezes.
+Both scan O(offset) rows inside the in-memory DAO (MySQL also walks OFFSET rows; a keyset 'WHERE reg_id > ?' would make deep pages O(1)).

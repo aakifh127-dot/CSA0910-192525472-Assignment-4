@@ -1,0 +1,5 @@
+One anonymous listener per trigger : distinct handler objects = 3
+One lambda stored in a variable    : distinct handler objects = 1
+One shared Action                  : distinct handler objects = 1
+Adding a 4th trigger: styles (a)-(c) need one more addActionListener line (a new object for (c) unless the handler is shared);
+a shared Action needs one line, new JButton(action), with no new handler code and no duplicated text/enabled state.

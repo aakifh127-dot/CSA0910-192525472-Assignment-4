@@ -1,0 +1,6 @@
+n clicks  redraw points (us)       copy BufferedImage (us)  points (KB)        image (KB)        
+100       89.9                     110.0                    0                  468               
+1000      784.4                    62.6                     8                  468               
+10000     9828.9                   77.1                     289                468               
+100000    88204.0                  54.2                     2443               468               
+Points: repaint O(n), memory O(n).  Image: repaint O(w*h) independent of n, memory O(w*h) fixed (about 469 KB here).

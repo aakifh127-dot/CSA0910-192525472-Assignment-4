@@ -1,0 +1,9 @@
+PASS T1 1000 INR -> 12.00 USD
+PASS T2 1000 INR -> 11.00 EUR
+PASS T3 decimal and spaces: ' 250.5 ' -> 3.01 USD
+PASS T4 letters -> Invalid amount
+PASS T5 blank -> Invalid amount
+PASS T6 negative -> Invalid amount
+PASS T7 NaN -> Invalid amount
+PASS T8 zero -> 0.00 USD
+8 passed, 0 failed

@@ -1,0 +1,15 @@
+amount='1000' to USD -> label shows '12.00 USD'
+PASS T1 expected '12.00 USD'
+   offscreen render of the converter components -> output/Converter_valid_conversion.png
+amount='1000' to EUR -> label shows '11.00 EUR'
+PASS T2 expected '11.00 EUR'
+amount='250.5' to USD -> label shows '3.01 USD'
+PASS T3 expected '3.01 USD'
+amount='abc' to USD -> label shows 'Invalid amount'
+PASS T4 expected 'Invalid amount'
+   offscreen render of the converter components -> output/Converter_invalid_amount.png
+amount='' to EUR -> label shows 'Invalid amount'
+PASS T5 expected 'Invalid amount'
+amount='-5' to USD -> label shows 'Invalid amount'
+PASS T6 expected 'Invalid amount'
+6 passed, 0 failed
