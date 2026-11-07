@@ -4,9 +4,7 @@
 
 **Student:** Syed Aakif Hussain S A  |  **Register No.:** 192525472  |  Course: Programming in Java (CSA09)  |  SIMATS Engineering
 
-Compiled and run with Java 21.0.12.1
-
-GitHub repository link: ______________________________ (fill in before submitting)
+Compiled and run with Java 21.0.12
 
 ## Folder layout
 
@@ -43,12 +41,6 @@ sh run.sh
 `run.sh` compiles and runs the tests, checks and benchmarks and writes `output/*_output.txt`. The windows themselves (`FeeWindow`, `AppointmentDesk`, `LibraryFrame`, `DrawPad`, `Converter`, `eventreg.app.Main`)
 need a desktop; their start commands are in each task's README. Task 6 uses MySQL when `-Ddb.url` is given (run `Task06/sql/schema.sql` first), otherwise in-memory demo data.
 
-## What you must still do yourself
-
-1. Create the GitHub repository `CSA09-192525472-Assignment4`, share it with the faculty and **commit task by task** (the commit history is checked).
-2. Run each window on your computer and add your own screenshots next to the generated images, each linked to the requirement it shows.
-3. Run Task 6 against a real MySQL database and screenshot a normal, an invalid and a duplicate registration.
-4. Check the pseudocode against the SIMATS Standard for Algorithmic Pseudocode and fill in the submission date and repository link.
 
 ## Suggested commit history
 
